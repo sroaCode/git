@@ -1,10 +1,30 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#cabecera{
+#contenedor {
+    border: 1px solid gray;
+    width: 90%;
+    margin: 0px auto;
+}
+
+#contenedor h1 {
+    text-align: center;
+    padding: 12px;
+}
+
+#contenedor p {
+    text-align: center;
+    padding: 12px;
+}
+
+#contenedor ul {
+    margin: 10px 30px 10px 60px;
+}
+
+#cabecera {
     width: 100%;
     height: 80px;
     display: block;
@@ -20,27 +40,31 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#cabecera h1{
+#cabecera h1 {
     width: 200px;
 }
 
-#contenedor{
-    border: 1px solid gray;
-    width: 90%;
-    margin: 0px auto;   
+#contenido-dividido {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
 
-#contenedor h1{
+.dividido {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.dividido h3 {
     text-align: center;
-    padding: 12px;
 }
 
-#contenedor p{
-    text-align: center;
-    padding: 12px;
+.izq img,
+.der img {
+    padding-top: 25px;
+    max-width: 90%;
+    max-height: 90%;
 }
-
-#contenedor ul {
-    margin: 10px 30px 10px 60px;
-}
-
