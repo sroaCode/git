@@ -14,7 +14,27 @@ body{
     background-color: rgb(145, 0, 0);
 }
 
-#cabecera{
+#contenedor {
+    border: 1px solid gray;
+    width: 90%;
+    margin: 0px auto;
+}
+
+#contenedor h1 {
+    text-align: center;
+    padding: 12px;
+}
+
+#contenedor p {
+    text-align: center;
+    padding: 12px;
+}
+
+#contenedor ul {
+    margin: 10px 30px 10px 60px;
+}
+
+#cabecera {
     width: 100%;
     margin: 1px solid black;
     display: flex;
@@ -55,3 +75,9 @@ body{
 #tituloBienvenida{
 }
 
+.izq img,
+.der img {
+    padding-top: 25px;
+    max-width: 90%;
+    max-height: 90%;
+}
