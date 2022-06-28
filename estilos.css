@@ -81,3 +81,22 @@ body{
     max-width: 90%;
     max-height: 90%;
 }
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 150px;
+    width: 90%;
+    margin: auto;
+}
+
+#footer1, #footer2, #footer3{
+    border: 1px solid black;
+    align-self: center;
+    flex-grow: 1;
+    row-gap: 5px;
+    height: 150px;
+}
